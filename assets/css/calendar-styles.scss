@@ -1,0 +1,34 @@
+/*
+
+		
+		Hides ToolTip Hover
+
+
+*/
+.post-type-archive-tribe_events .tribe-events-tooltip-theme {
+  display: none !important;
+}
+/*
+
+        
+        Hides Details Below
+
+
+*/
+.single-tribe_events .tribe-events-event-meta {
+    display: none;
+}
+.tribe-events-content {
+    .addtoany_content {
+        display: none;
+    }
+}
+/*
+    Hides ToolTip Hover
+*/
+@import "usnwc-core";
+
+/*
+    Hides ToolTip Hover
+*/
+@import "calendar-full";
