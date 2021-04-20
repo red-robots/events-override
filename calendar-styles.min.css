@@ -609,6 +609,7 @@ h3.tribe-events-calendar-month-mobile-events__mobile-event-title.tribe-common-h7
 .tribe-events-sub-nav li a,#tribe-events .tribe-events-button,.tribe-events-button{background-color:#ba0d30}
 #tribe-events-footer .tribe-events-sub-nav .tribe-events-nav-previous,#tribe-events-footer .tribe-events-sub-nav li{margin-right:0}
 #tribe-events-footer .tribe-events-sub-nav .tribe-events-nav-next{margin-left:0}
+nav.tribe-events-nav-pagination ul.tribe-events-sub-nav li a{color:#fff;padding:5px 10px}
 @media screen{#tribe-events-content .tribe-events-tooltip ol,#tribe-events-content .tribe-events-tooltip ul{margin-left:1.6em}
 }@media(-o-min-device-pixel-ratio:2 / 1),(-webkit-min-device-pixel-ratio:2),(min--moz-device-pixel-ratio:2),(min-device-pixel-ratio:2){.tribe-events-tooltip .tribe-events-arrow{background-image:url(../images/tribe-tooltips@2x.png)}
 #tribe-bar-filters .tribe-bar-button-search .tribe-bar-btn-small{background-image:url(../images/events-bar/icon-search@2x.png)}
