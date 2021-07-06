@@ -99,6 +99,7 @@
 }
 #tribe-events-content a, .tribe-events-adv-list-widget .tribe-events-widget-link a, .tribe-events-adv-list-widget .tribe-events-widget-link a:hover, .tribe-events-back a, .tribe-events-back a:hover, .tribe-events-event-meta a, .tribe-events-list-widget .tribe-events-widget-link a, .tribe-events-list-widget .tribe-events-widget-link a:hover, ul.tribe-events-sub-nav a, ul.tribe-events-sub-nav a:hover {
     text-decoration: none;
+    color: #fff;
 }
 #tribe-events .tribe-events-button, .tribe-events-button {
     *display: inline;
@@ -176,6 +177,8 @@ a.tribe-events-gcal, a.tribe-events-ical {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    width: 100%;
+    text-align: center;
 }
 .tribe-events-event-schedule-details {
     display: inline;

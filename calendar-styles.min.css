@@ -229,7 +229,7 @@
 #tribe-events-pg-template .tribe-events-content ol li,#tribe-events-pg-template .tribe-events-content ul li,.tribe-events-after-html ol li,.tribe-events-after-html ul li,.tribe-events-before-html ol li,.tribe-events-before-html ul li{line-height:1.7;margin:0 0 20px}
 .tribe-events-back{margin:0 0 20px}
 .events-list .tribe-events-back.tribe-events-loop{margin:0 auto 20px}
-#tribe-events-content a,.tribe-events-adv-list-widget .tribe-events-widget-link a,.tribe-events-adv-list-widget .tribe-events-widget-link a:hover,.tribe-events-back a,.tribe-events-back a:hover,.tribe-events-event-meta a,.tribe-events-list-widget .tribe-events-widget-link a,.tribe-events-list-widget .tribe-events-widget-link a:hover,ul.tribe-events-sub-nav a,ul.tribe-events-sub-nav a:hover{text-decoration:none}
+#tribe-events-content a,.tribe-events-adv-list-widget .tribe-events-widget-link a,.tribe-events-adv-list-widget .tribe-events-widget-link a:hover,.tribe-events-back a,.tribe-events-back a:hover,.tribe-events-event-meta a,.tribe-events-list-widget .tribe-events-widget-link a,.tribe-events-list-widget .tribe-events-widget-link a:hover,ul.tribe-events-sub-nav a,ul.tribe-events-sub-nav a:hover{text-decoration:none;color:#fff}
 #tribe-events .tribe-events-button,.tribe-events-button{*display:inline;background-color:#666;background-image:none;border-radius:0;border:0;-webkit-box-shadow:none;box-shadow:none;color:#fff;cursor:pointer;display:inline-block;font-size:11px;font-weight:700;letter-spacing:1px;line-height:normal;padding:6px 9px;text-align:center;text-decoration:none;text-transform:uppercase;vertical-align:middle;zoom:1}
 .tribe-events-button.tribe-active{background-color:#666;color:#fff}
 #tribe-events .tribe-events-button:hover,.tribe-events-button.tribe-active:hover,.tribe-events-button.tribe-inactive,.tribe-events-button:hover{background-color:#ddd;color:#444;text-decoration:none}
@@ -241,7 +241,7 @@ a.tribe-events-gcal,a.tribe-events-ical{clear:both;color:#fff;float:right;font-s
 .updated-info{height:0;text-indent:-9999px}
 .tribe-events-event-image{margin:0 0 20px;text-align:center}
 .tribe-events-event-image img{height:auto;max-width:100%}
-.tribe-events-schedule h2{display:inline-block;margin-bottom:0;color:#141827;font-size:1.2em;font-style:normal;font-weight:700;line-height:normal}
+.tribe-events-schedule h2{display:inline-block;margin-bottom:0;color:#141827;font-size:1.2em;font-style:normal;font-weight:700;line-height:normal;width:100%;text-align:center}
 .tribe-events-event-schedule-details{display:inline}
 .events-archive .entry-content,.events-archive .entry-header{width:98%}
 .events-archive footer.entry-header,.events-archive footer.entry-meta,.events-archive header.entry-header,.events-archive header.entry-meta,.events-archive span.edit-link,.single-tribe_events footer.entry-header,.single-tribe_events footer.entry-meta,.single-tribe_events header.entry-header,.single-tribe_events header.entry-meta,.single-tribe_organizer footer.entry-header,.single-tribe_organizer footer.entry-meta,.single-tribe_organizer header.entry-header,.single-tribe_organizer header.entry-meta,.single-tribe_venue footer.entry-header,.single-tribe_venue footer.entry-meta,.single-tribe_venue header.entry-header,.single-tribe_venue header.entry-meta{display:none}
