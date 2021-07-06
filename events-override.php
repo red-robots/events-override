@@ -21,7 +21,7 @@ add_action( 'wp_enqueue_scripts', 'deregister_tribe_styles' );
 add_action('wp_enqueue_scripts', 'custom_tribe_bellaworks_style');
 
 function custom_tribe_bellaworks_style() {
-	wp_register_style( 'calendar-styles',  plugin_dir_url( __FILE__ ) . 'calendar-styles.css', array(), '1.3' );
+	wp_register_style( 'calendar-styles',  plugin_dir_url( __FILE__ ) . 'calendar-styles.css', array(), '1.4' );
     wp_enqueue_style( 'calendar-styles' );
 }
 /**

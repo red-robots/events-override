@@ -241,7 +241,7 @@ a.tribe-events-gcal,a.tribe-events-ical{clear:both;color:#fff;float:right;font-s
 .updated-info{height:0;text-indent:-9999px}
 .tribe-events-event-image{margin:0 0 20px;text-align:center}
 .tribe-events-event-image img{height:auto;max-width:100%}
-.tribe-events-schedule h2{display:inline-block;margin-bottom:0;color:#141827;font-size:1.2em;font-style:normal;font-weight:700;line-height:normal;width:100%;text-align:center}
+.tribe-events-schedule h2{display:inline-block;margin-bottom:20px;color:#141827;font-size:1.2em;font-style:normal;font-weight:700;line-height:normal;width:100%;text-align:center}
 .tribe-events-event-schedule-details{display:inline}
 .events-archive .entry-content,.events-archive .entry-header{width:98%}
 .events-archive footer.entry-header,.events-archive footer.entry-meta,.events-archive header.entry-header,.events-archive header.entry-meta,.events-archive span.edit-link,.single-tribe_events footer.entry-header,.single-tribe_events footer.entry-meta,.single-tribe_events header.entry-header,.single-tribe_events header.entry-meta,.single-tribe_organizer footer.entry-header,.single-tribe_organizer footer.entry-meta,.single-tribe_organizer header.entry-header,.single-tribe_organizer header.entry-meta,.single-tribe_venue footer.entry-header,.single-tribe_venue footer.entry-meta,.single-tribe_venue header.entry-header,.single-tribe_venue header.entry-meta{display:none}
@@ -608,8 +608,14 @@ input[name*=tribe-bar-]:-moz-placeholder{color:#5f5f5f;font-style:italic;font-we
 h3.tribe-events-calendar-month-mobile-events__mobile-event-title.tribe-common-h7{padding-top:20px}
 .tribe-events-sub-nav li a,#tribe-events .tribe-events-button,.tribe-events-button{background-color:#ba0d30}
 #tribe-events-footer .tribe-events-sub-nav .tribe-events-nav-previous,#tribe-events-footer .tribe-events-sub-nav li{margin-right:0}
-#tribe-events-footer .tribe-events-sub-nav .tribe-events-nav-next{margin-left:0}
-nav.tribe-events-nav-pagination ul.tribe-events-sub-nav li a{color:#fff;padding:5px 10px}
+#tribe-events-footer .tribe-events-sub-nav .tribe-events-nav-next{margin-left:0;padding:20px}
+#tribe-events-footer .tribe-events-sub-nav .tribe-events-nav-previous{padding:20px}
+nav.tribe-events-nav-pagination ul.tribe-events-sub-nav li a{color:#fff}
+li.tribe-events-nav-previous a,li.tribe-events-nav-next a{color:#fff}
+li.tribe-events-nav-previous a:before,li.tribe-events-nav-next a:before{color:#fff}
+.tribe-events-single .tribe-events-sub-nav .tribe-events-nav-previous a:before,.tribe-events-single .tribe-events-sub-nav .tribe-events-nav-next a:after{background:0}
+.tribe-events-single .tribe-events-sub-nav a span{display:inline-block}
+.tribe-events-sub-nav li a,#tribe-events .tribe-events-button,.tribe-events-button{padding:10px 20px}
 @media screen{#tribe-events-content .tribe-events-tooltip ol,#tribe-events-content .tribe-events-tooltip ul{margin-left:1.6em}
 }@media(-o-min-device-pixel-ratio:2 / 1),(-webkit-min-device-pixel-ratio:2),(min--moz-device-pixel-ratio:2),(min-device-pixel-ratio:2){.tribe-events-tooltip .tribe-events-arrow{background-image:url(../images/tribe-tooltips@2x.png)}
 #tribe-bar-filters .tribe-bar-button-search .tribe-bar-btn-small{background-image:url(../images/events-bar/icon-search@2x.png)}

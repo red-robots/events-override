@@ -112,11 +112,34 @@ h3.tribe-events-calendar-month-mobile-events__mobile-event-title.tribe-common-h7
 }
 #tribe-events-footer .tribe-events-sub-nav .tribe-events-nav-previous, #tribe-events-footer .tribe-events-sub-nav li {
     margin-right: 0;
+
 }
 #tribe-events-footer .tribe-events-sub-nav .tribe-events-nav-next {
     margin-left: 0;
+    padding: 20px;
+}
+#tribe-events-footer .tribe-events-sub-nav .tribe-events-nav-previous {
+    padding: 20px;
 }
 nav.tribe-events-nav-pagination ul.tribe-events-sub-nav li a {
     color: #fff;
-    padding: 5px 10px;
+    
+}
+li.tribe-events-nav-previous, li.tribe-events-nav-next {
+    a {
+        color: #fff;
+        &:before {
+            color: #fff;
+        }
+    }
+}
+.tribe-events-single .tribe-events-sub-nav .tribe-events-nav-previous a:before,
+.tribe-events-single .tribe-events-sub-nav .tribe-events-nav-next a:after {
+    background:none;
+}
+.tribe-events-single .tribe-events-sub-nav a span {
+    display: inline-block;
+}
+.tribe-events-sub-nav li a, #tribe-events .tribe-events-button, .tribe-events-button {
+    padding: 10px 20px;
 }
