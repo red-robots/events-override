@@ -172,3 +172,28 @@ li.tribe-events-nav-previous, li.tribe-events-nav-next {
         }
     }
 }
+
+body.single-tribe_events {
+    #tribe-events {
+        margin-top: 0;
+    }
+    .text-centered-section p {
+        padding-top: 0;
+        margin: 0;
+    }
+    .tribe-events-back p {
+        margin: 0;
+    }
+    h1.page-title:after {
+        margin: 0;
+        display: none;
+    }
+    section.text-centered-section {
+        padding-top: 0;
+    }
+    .navbar {
+        .wrapper {
+            padding-top: 10px;
+        }
+    }
+}
