@@ -625,7 +625,7 @@ body.single-tribe_events .text-centered-section p{padding-top:0;margin:0}
 body.single-tribe_events .tribe-events-back p{margin:0}
 body.single-tribe_events h1.page-title:after{margin:0;display:none}
 body.single-tribe_events section.text-centered-section{padding-top:0}
-body.single-tribe_events .navbar .wrapper{padding-top:10px}
+body.single-tribe_events .navbar .wrapper{padding:10px 20px 6px 20px}
 @media screen{#tribe-events-content .tribe-events-tooltip ol,#tribe-events-content .tribe-events-tooltip ul{margin-left:1.6em}
 }@media(-o-min-device-pixel-ratio:2 / 1),(-webkit-min-device-pixel-ratio:2),(min--moz-device-pixel-ratio:2),(min-device-pixel-ratio:2){.tribe-events-tooltip .tribe-events-arrow{background-image:url(../images/tribe-tooltips@2x.png)}
 #tribe-bar-filters .tribe-bar-button-search .tribe-bar-btn-small{background-image:url(../images/events-bar/icon-search@2x.png)}
