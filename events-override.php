@@ -38,16 +38,16 @@ function ac_dont_show_social_icons_on_calendar( $title ) {
    
 }
 add_filter( 'addtoany_sharing_disabled', 'ac_dont_show_social_icons_on_calendar' );
-function ac_lets_add_the_cal_title( $title ) {
+// function ac_lets_add_the_cal_title( $title ) {
 
-	if( is_post_type_archive('tribe_events') ) {
-		$title = 'Calendar';
-	}
-	// if(is_singular('tribe_events')) {
-	// 	$title = 'Today';
-	// }
+// 	if( is_post_type_archive('tribe_events') ) {
+// 		$title = 'Calendar';
+// 	}
+// 	// if(is_singular('tribe_events')) {
+// 	// 	$title = 'Today';
+// 	// }
    
 
-    return $title;
-}
-add_filter( 'the_title', 'ac_lets_add_the_cal_title' );
+//     return $title;
+// }
+// add_filter( 'the_title', 'ac_lets_add_the_cal_title' );
