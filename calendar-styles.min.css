@@ -618,9 +618,12 @@ li.tribe-events-nav-previous a span,li.tribe-events-nav-next a span{display:none
 li.tribe-events-nav-previous a:after,li.tribe-events-nav-next a:after{color:#ba0d30}
 .tribe-events-single .tribe-events-sub-nav a span{display:inline-block}
 .tribe-events-sub-nav li a,#tribe-events .tribe-events-button,.tribe-events-button{padding:10px 20px}
-.single-tribe_events #tribe-events-footer li,.single-tribe_events #tribe-events-header li{width:100%}
+.single-tribe_events #tribe-events-footer li,.single-tribe_events #tribe-events-header li{width:48%}
 .tribe-events-single .tribe-events-sub-nav{display:block}
 .tribe-events-single .tribe-events-sub-nav li.tribe-events-nav-previous a,.tribe-events-single .tribe-events-sub-nav li.tribe-events-nav-next a{display:block}
+.tribe-events-c-subscribe-dropdown__container{-webkit-box-pack:center !important;-ms-flex-pack:center !important;justify-content:center !important;margin:0 auto !important}
+.tribe-events-c-subscribe-dropdown__button:hover,.tribe-events-c-subscribe-dropdown__button:focus,.tribe-events-c-subscribe-dropdown__button:focus-within{background-color:#ba0d30 !important;color:#fff !important}
+li.tribe-events-c-subscribe-dropdown__list-item a{color:#ba0d30 !important}
 body.single-tribe_events #tribe-events{margin-top:0}
 body.single-tribe_events .text-centered-section p{padding-top:0;margin:0}
 body.single-tribe_events .tribe-events-back p{margin:0}
@@ -645,6 +648,7 @@ body.single-tribe_events .navbar .wrapper{padding:10px 20px 6px 20px}
 .single-tribe_events #tribe-events-footer li,.single-tribe_events #tribe-events-header li{width:48%}
 .tribe-events-single .tribe-events-sub-nav{display:-webkit-box;display:-ms-flexbox;display:flex}
 .tribe-events-single .tribe-events-sub-nav li.tribe-events-nav-previous a,.tribe-events-single .tribe-events-sub-nav li.tribe-events-nav-next a{display:inline-block}
+.tribe-events-c-subscribe-dropdown__container{-webkit-box-pack:end !important;-ms-flex-pack:end !important;justify-content:flex-end !important;margin:0 !important}
 }@media screen and (min-width:1000px){.tribe-theme-parent-twentyfourteen #tribe-events-pg-template,.tribe-theme-twentyfourteen #tribe-events-pg-template{padding-left:220px}
 }@media screen and (max-width:782px){body.admin-bar .datepicker{margin-top:46px}
 }@media screen and (max-width:767px){.single-tribe_events .secondary .tribe-events-venue-map{width:90%}
