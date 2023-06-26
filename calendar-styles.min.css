@@ -206,6 +206,7 @@
 .tribe-common .tribe-common-c-svgicon--messages-not-found .tribe-common-c-svgicon__svg-stroke{stroke:currentColor}
 .tribe-common .tribe-common-c-svgicon__svg-fill{fill:#141827}
 .tribe-common .tribe-common-c-svgicon__svg-stroke{stroke:#141827}
+.tribe-events-event-meta a{color:#000 !important}
 .tribe-events-event-cost{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;float:none;margin:0 0 15px}
 .tribe-events-event-cost span{border:1px solid #ddd;display:block;font-style:normal;font-weight:700;line-height:1;padding:8px 12px;text-align:center;text-overflow:ellipsis}
 .tribe-events-event-cost .tribe-out-of-stock,.tribe-events-event-cost .tribe-tickets-left{background:#f0f0f0;border-left:0;color:#727272;font-style:italic;font-weight:400}
